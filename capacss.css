@@ -1,0 +1,73 @@
+
+    
+
+.flex-container{
+    display: flex;
+    background-color: chocolate;
+    flex-direction: row  ;
+    padding: 1px;
+    border: 1px solid black;
+    justify-content: start;
+}
+
+.caja{
+    
+    border: 1px;
+    border-radius: 3%;
+    background-color:grey;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 100px;
+    height: 25px;
+    line-height: 12px;
+    text-align: justify;
+    margin: 5px;
+
+
+  }
+  
+  body{
+    background-image: url(fotodefondochef.jpg);
+    background-size: 100%;
+  }
+
+  footer{
+    width: 100%;
+    background-color: brown;
+    bottom: 0px;
+    clear: both;
+    position: fixed;
+    margin-top: 100px;
+
+}
+
+.container{
+    display: flex;
+    
+    flex-direction: row  ;
+    padding: 1px;
+   
+    justify-content: start;
+
+}
+
+.caja1{
+    border: 1px;
+    border-radius: 5%;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+    text-align: start;
+    margin: 5px;
+    image-orientation: initial;
+}
+
+.c1{
+    background-color: white;
+}
+
+.c2{
+background-color: aquamarine;
+}
